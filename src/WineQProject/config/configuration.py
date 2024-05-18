@@ -1,7 +1,9 @@
 # Importing the libraries that are required
 from WineQProject.constants import *
 from WineQProject.utils.common import read_yaml, create_directories
-from WineQProject.entity.config_entity import DataIngestionConfig
+from WineQProject.entity.config_entity import (DataIngestionConfig,
+                                               DataValidationConfig)
+
 
 # This program reads yaml file, creates directories and stores the paths from constants & config/config file
 class ConfigurationManager:
@@ -18,7 +20,7 @@ class ConfigurationManager:
         create_directories([self.config.artifacts_root])
 
 
-    
+    # Data Ingestion
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
 
@@ -32,3 +34,20 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+    
+    # Data Validation
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config = self.config.data_validation
+        schema = self.schema.COLUMNS
+        
+        create_directories([config.root_dir])
+        
+        data_validation_config = DataValidationConfig(
+            root_dir = config.root_dir,
+            STATUS_FILE =  config.STATUS_FILE,
+            unzip_data_dir = config.unzip_data_dir,
+            all_schema = schema
+        )
+        
+        return data_validation_config
