@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/7d8cf7f2bd1b4b5e9b16b1861721447e/artifacts
+end_time: 1716167458880
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d8cf7f2bd1b4b5e9b16b1861721447e
+run_name: crawling-grub-917
+run_uuid: 7d8cf7f2bd1b4b5e9b16b1861721447e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716167456840
+status: 3
+tags: []
+user_id: vibhav911

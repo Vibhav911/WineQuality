@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/f2b19bf2d4a448ba8c78885f55b2720b/artifacts
+end_time: 1716167733987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2b19bf2d4a448ba8c78885f55b2720b
+run_name: bedecked-grouse-156
+run_uuid: f2b19bf2d4a448ba8c78885f55b2720b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716167732013
+status: 3
+tags: []
+user_id: vibhav911

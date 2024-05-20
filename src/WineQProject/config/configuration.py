@@ -4,7 +4,8 @@ from WineQProject.utils.common import read_yaml, create_directories
 from WineQProject.entity.config_entity import (DataIngestionConfig,
                                                DataValidationConfig,
                                                DataTransformationConfig,
-                                               ModelTrainerConfig)
+                                               ModelTrainerConfig,
+                                               ModelEvaluationConfig)
 
 
 # This program reads yaml file, creates directories and stores the paths from constants & config/config file
@@ -89,3 +90,25 @@ class ConfigurationManager:
         )
         
         return model_trainer_config
+    
+    
+    
+    # Model Evaluation
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+        
+        create_directories([config.root_dir])
+        
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir = config.root_dir,
+            test_data_path = config.test_data_path,
+            model_path = config.model_path,
+            all_params = params,
+            metric_file_name = config.metric_file_name,
+            target_column = schema.name,
+            mlflow_uri = 'https://dagshub.com/Vibhav911/WineQuality.mlflow'
+        )
+        
+        return model_evaluation_config
