@@ -18,6 +18,11 @@ jobs:
     name: Continuous Integration
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Checkout Code
         uses: actions/checkout@v4
 
@@ -32,6 +37,11 @@ jobs:
     needs: integration
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Checkout Code
         uses: actions/checkout@v4
 
@@ -70,6 +80,11 @@ jobs:
     needs: build-and-push-ecr-image
     runs-on: self-hosted
     steps:
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
       - name: Checkout
         uses: actions/checkout@v4
 
