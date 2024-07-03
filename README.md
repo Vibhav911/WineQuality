@@ -26,13 +26,13 @@ https://github.com/Vibhav911/WineQuality
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y  
+conda create -n winequality python=3.10 -y  
 or
 virtualenv [environment_name]
 ```
 
 ```bash
-conda activate mlproj
+conda activate winequality
 or
 source [environment_name]/bin/activate
 ```
