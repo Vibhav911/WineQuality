@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/54ba64ac556d41909adaa242a980d67e/artifacts
+end_time: 1720243641618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54ba64ac556d41909adaa242a980d67e
+run_name: valuable-conch-899
+run_uuid: 54ba64ac556d41909adaa242a980d67e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720243639672
+status: 3
+tags: []
+user_id: vibhav911

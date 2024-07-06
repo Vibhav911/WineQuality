@@ -35,8 +35,8 @@ class ModelEvaluation:
         tracking_uri_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():
-            predicted_qualities = model.predict(test_x)
-            (rmse, mae, r2) = self.eval_metric(test_y, predicted_qualities)
+            predicted_qualities = model.predict(test_x.values)
+            (rmse, mae, r2) = self.eval_metric(test_y.values, predicted_qualities)
             
             #Saving metric as local
             scores={'rmse':rmse, 'mae':mae, 'r2':r2}

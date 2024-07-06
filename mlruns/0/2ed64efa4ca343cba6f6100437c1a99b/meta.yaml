@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/2ed64efa4ca343cba6f6100437c1a99b/artifacts
+end_time: 1720243541035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ed64efa4ca343cba6f6100437c1a99b
+run_name: ambitious-frog-461
+run_uuid: 2ed64efa4ca343cba6f6100437c1a99b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720243539104
+status: 3
+tags: []
+user_id: vibhav911
