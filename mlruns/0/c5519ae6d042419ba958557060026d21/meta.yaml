@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/c5519ae6d042419ba958557060026d21/artifacts
+end_time: 1720416441765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c5519ae6d042419ba958557060026d21
+run_name: trusting-mouse-972
+run_uuid: c5519ae6d042419ba958557060026d21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720416440064
+status: 3
+tags: []
+user_id: vibhav911

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vibhav911/Documents/skills/Data%20Science/DS_Projects/WineQuality/mlruns/0/b61b9fc2c82c4c6d9cd0a04ba151b572/artifacts
+end_time: 1721140115433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b61b9fc2c82c4c6d9cd0a04ba151b572
+run_name: dapper-calf-190
+run_uuid: b61b9fc2c82c4c6d9cd0a04ba151b572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721140113607
+status: 3
+tags: []
+user_id: vibhav911
