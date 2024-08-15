@@ -1,6 +1,5 @@
 # End-to-end-Machine-Learning-Project-with-MLflow
-### Predicting the quality of wine using various factor and then analysing the prepared model
-### using MLflow
+### Predicting the quality of wine using various factor and then analysing the prepared model using MLflow
 
 
 # How to run?
